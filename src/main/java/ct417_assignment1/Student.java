@@ -19,7 +19,7 @@ public class Student {
     private int id;
     private String userName;
     private Course course;
-    private ArrayList<Module> modules;
+    private ArrayList<CourseModule> modules;
     
 
     //Constructor
@@ -31,7 +31,7 @@ public class Student {
         this.id = id;
         this.userName = getUserName(name, age);
         this.course = course;
-        this.modules = new ArrayList<Module>();
+        this.modules = new ArrayList<CourseModule>();
     }
 
     //Getters and Setters

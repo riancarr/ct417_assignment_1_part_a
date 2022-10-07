@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class Course {
     private String courseName;
-    private ArrayList<Module> courseModules;
+    private ArrayList<CourseModule> courseModules;
     private ArrayList<Student> enrolledStudents;
     private DateTime startDate;
     private DateTime endDate;
@@ -23,7 +23,7 @@ public class Course {
     public Course(String courseName, DateTime startDate, DateTime endDate) 
     {
         this.courseName = courseName;
-        this.courseModules = new ArrayList<Module>();
+        this.courseModules = new ArrayList<CourseModule>();
         this.enrolledStudents = new ArrayList<Student>();
         this.startDate = startDate;
         this.endDate = endDate;

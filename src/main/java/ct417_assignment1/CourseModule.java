@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Rian
  */
-public class Module {
+public class CourseModule {
     private String name;
     private String id;
     private ArrayList<Student> students;
@@ -19,7 +19,7 @@ public class Module {
     private Lecturer lecturer;
 
     //Constructor
-    public Module(String name, String id, Lecturer lecturer) {
+    public CourseModule(String name, String id, Lecturer lecturer) {
         this.name = name;
         this.id = id;
         this.students = new ArrayList<Student>();

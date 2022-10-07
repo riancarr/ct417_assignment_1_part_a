@@ -18,7 +18,7 @@ public class Lecturer {
     private DateTime dateOfBirth;
     private int id;
     private String userName;
-    private ArrayList<Module> modulesTeaching;
+    private ArrayList<CourseModule> modulesTeaching;
     
     //Constructor
 
@@ -29,7 +29,7 @@ public class Lecturer {
         this.dateOfBirth = dateOfBirth;
         this.id = id;
         this.userName = getUserName(name, age);
-        this.modulesTeaching = new ArrayList<Module>();
+        this.modulesTeaching = new ArrayList<CourseModule>();
     }
 
     public String getName() 

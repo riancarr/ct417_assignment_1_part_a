@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ct417_assignment1.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-29T23:33:32" hostname="DESKTOP-VCG3B7H" time="0.076">
+  <properties/>
+  <testcase name="testMain" classname="ct417_assignment1.MainTest" time="0.076"/>
+  <system-out><![CDATA[Hi, my name is Jimmy Steve. I'm a student of Computers which is taught by Teachy MacGuffin, who is 52 years young.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

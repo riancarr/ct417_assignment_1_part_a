@@ -40,7 +40,7 @@ public class MainTest {
         assertEquals(expectedLecturerName, l1.returnUserName());
         
         //Create Modules
-        Module m1 = new Module("Computers", "CS329", l1);
+        CourseModule m1 = new CourseModule("Computers", "CS329", l1);
         
         //Add modules to course
         c1.getCourseModules().add(m1);
