@@ -18,7 +18,7 @@ public class Main {
         // TODO code application logic here
         for(int i = 0; i<12; i++)
         {
-        System.out.println("Test to see if this shit can run " + i);
+        System.out.println("Test to see if this can run " + i);
         }
     }
     
